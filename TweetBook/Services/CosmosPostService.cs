@@ -32,5 +32,10 @@ namespace TweetBook.Services
         {
             throw new NotImplementedException();
         }
+
+        public Task<bool> UserOwnsPostAsync(Guid postId, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
